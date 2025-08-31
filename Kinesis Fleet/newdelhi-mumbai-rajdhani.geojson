@@ -1,0 +1,1708 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2190894,
+          28.6428915
+        ]
+      },
+      "properties": {
+        "name": "New Delhi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2371894,
+          28.6281533
+        ]
+      },
+      "properties": {
+        "name": "Tilak Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2473049,
+          28.615652
+        ]
+      },
+      "properties": {
+        "name": "Pragati Maidan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2655819,
+          28.5594407
+        ]
+      },
+      "properties": {
+        "name": "Okhla"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.297177,
+          28.5035518
+        ]
+      },
+      "properties": {
+        "name": "Tuglakabad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3074766,
+          28.410952
+        ]
+      },
+      "properties": {
+        "name": "Faridabad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.341736,
+          28.1514857
+        ]
+      },
+      "properties": {
+        "name": "Palwal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3605639,
+          27.9738642
+        ]
+      },
+      "properties": {
+        "name": "Sholaka"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3877117,
+          27.8864746
+        ]
+      },
+      "properties": {
+        "name": "Hodal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5580375,
+          27.6362417
+        ]
+      },
+      "properties": {
+        "name": "Ajhai"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6235376,
+          27.5556972
+        ]
+      },
+      "properties": {
+        "name": "Vrindaban Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6679186,
+          27.5013854
+        ]
+      },
+      "properties": {
+        "name": "Bhuteshwar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6721033,
+          27.4803806
+        ]
+      },
+      "properties": {
+        "name": "Mathura Jn"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6129221,
+          27.3957155
+        ]
+      },
+      "properties": {
+        "name": "Churaman Nagri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.574082,
+          27.355105
+        ]
+      },
+      "properties": {
+        "name": "Jajan Patti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5557227,
+          27.3243351
+        ]
+      },
+      "properties": {
+        "name": "Ranikund Rarah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.4888684,
+          27.2367694
+        ]
+      },
+      "properties": {
+        "name": "Bharatpur Jn."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3292052,
+          27.0164702
+        ]
+      },
+      "properties": {
+        "name": "Kela Devi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2964466,
+          26.916051
+        ]
+      },
+      "properties": {
+        "name": "Bayana Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0959141,
+          26.8010147
+        ]
+      },
+      "properties": {
+        "name": "Dhindora Hukmikhera"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.0313193,
+          26.7557741
+        ]
+      },
+      "properties": {
+        "name": "Hindaun City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.863933,
+          26.606084
+        ]
+      },
+      "properties": {
+        "name": "Pilioda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.7269502,
+          26.4681182
+        ]
+      },
+      "properties": {
+        "name": "Gangapur City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.679948,
+          26.4298067
+        ]
+      },
+      "properties": {
+        "name": "Lalpur Umri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.6358276,
+          26.3441514
+        ]
+      },
+      "properties": {
+        "name": "Narayanpur Tatwara"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.5793762,
+          26.2797501
+        ]
+      },
+      "properties": {
+        "name": "Nimoda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.4617413,
+          26.1616791
+        ]
+      },
+      "properties": {
+        "name": "Mokholi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.3575501,
+          26.0192256
+        ]
+      },
+      "properties": {
+        "name": "Sawai Madhopur Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.32678,
+          25.96123
+        ]
+      },
+      "properties": {
+        "name": "Kushtala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.3140198,
+          25.8894453
+        ]
+      },
+      "properties": {
+        "name": "Rawanjna Dungar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2859468,
+          25.8281492
+        ]
+      },
+      "properties": {
+        "name": "Amli"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.1929452,
+          25.6394415
+        ]
+      },
+      "properties": {
+        "name": "Lakheri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.2082766,
+          25.5732871
+        ]
+      },
+      "properties": {
+        "name": "Laban"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.0857929,
+          25.4441473
+        ]
+      },
+      "properties": {
+        "name": "Kapren"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.937007,
+          25.3234863
+        ]
+      },
+      "properties": {
+        "name": "Keshorai Patan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.89675,
+          25.28979
+        ]
+      },
+      "properties": {
+        "name": "Gurla N Cabin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8783,
+          25.24434
+        ]
+      },
+      "properties": {
+        "name": "Gurla C Cabin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.88336,
+          25.20849
+        ]
+      },
+      "properties": {
+        "name": "Kota Yard Track: Double Electric-Line"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8659843,
+          25.1446577
+        ]
+      },
+      "properties": {
+        "name": "Dakaniya Talav"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.89501,
+          25.09218
+        ]
+      },
+      "properties": {
+        "name": "Dadhdevi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.955304,
+          24.940161
+        ]
+      },
+      "properties": {
+        "name": "Concor Depot Siding Ravtha Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.007055,
+          24.831948
+        ]
+      },
+      "properties": {
+        "name": "Dara"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.982977,
+          24.780187
+        ]
+      },
+      "properties": {
+        "name": "Kanwalpura"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.9735824,
+          24.7295108
+        ]
+      },
+      "properties": {
+        "name": "Morak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.9398612,
+          24.6439184
+        ]
+      },
+      "properties": {
+        "name": "Ramganj Mandi Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.8300344,
+          24.4194364
+        ]
+      },
+      "properties": {
+        "name": "Bhawani Mandi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.6843982,
+          24.2788706
+        ]
+      },
+      "properties": {
+        "name": "Garot"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.6436976,
+          24.1922253
+        ]
+      },
+      "properties": {
+        "name": "Shamgarh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.6487065,
+          24.0705067
+        ]
+      },
+      "properties": {
+        "name": "Suwasra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.6012879,
+          23.9483808
+        ]
+      },
+      "properties": {
+        "name": "\u091a\u094c\u092e\u0939\u0932\u093e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5551503,
+          23.8356601
+        ]
+      },
+      "properties": {
+        "name": "Thuria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.5144653,
+          23.6606644
+        ]
+      },
+      "properties": {
+        "name": "Luni Richha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.4856163,
+          23.5113459
+        ]
+      },
+      "properties": {
+        "name": "Rohal Khurd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.4124471,
+          23.4560874
+        ]
+      },
+      "properties": {
+        "name": "Nagda Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.2864723,
+          23.4426645
+        ]
+      },
+      "properties": {
+        "name": "Khachrod"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.1217509,
+          23.3971059
+        ]
+      },
+      "properties": {
+        "name": "Bangrod"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.04143,
+          23.33543
+        ]
+      },
+      "properties": {
+        "name": "Ratlam A Cabin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.97794,
+          23.27611
+        ]
+      },
+      "properties": {
+        "name": "Morwani"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.8790028,
+          23.1840514
+        ]
+      },
+      "properties": {
+        "name": "Raoti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.7767384,
+          23.1451797
+        ]
+      },
+      "properties": {
+        "name": "Bhairongarh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.7585444,
+          23.0949444
+        ]
+      },
+      "properties": {
+        "name": "Bamnia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.6667751,
+          23.0328397
+        ]
+      },
+      "properties": {
+        "name": "Panch Pipila"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.5398541,
+          22.9072961
+        ]
+      },
+      "properties": {
+        "name": "Meghnagar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.4214752,
+          22.8655901
+        ]
+      },
+      "properties": {
+        "name": "Anas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.3480772,
+          22.8667991
+        ]
+      },
+      "properties": {
+        "name": "Bordi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.300477,
+          22.849496
+        ]
+      },
+      "properties": {
+        "name": "Dhamarda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.2530418,
+          22.8441159
+        ]
+      },
+      "properties": {
+        "name": "Dahod"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.9844568,
+          22.8346452
+        ]
+      },
+      "properties": {
+        "name": "Limkheda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.801428,
+          22.7955435
+        ]
+      },
+      "properties": {
+        "name": "Sant Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.7141972,
+          22.7964644
+        ]
+      },
+      "properties": {
+        "name": "Chanchelav"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.6048993,
+          22.7768079
+        ]
+      },
+      "properties": {
+        "name": "Godhra Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.5422895,
+          22.789013
+        ]
+      },
+      "properties": {
+        "name": "Vavadi Khurd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.466049,
+          22.8003298
+        ]
+      },
+      "properties": {
+        "name": "Tuwa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.2865432,
+          22.8076665
+        ]
+      },
+      "properties": {
+        "name": "Angadi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.221369,
+          22.7977088
+        ]
+      },
+      "properties": {
+        "name": "Thasra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.158179,
+          22.7468776
+        ]
+      },
+      "properties": {
+        "name": "Dakor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1199435,
+          22.6933634
+        ]
+      },
+      "properties": {
+        "name": "Umreth"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.038544,
+          22.6354289
+        ]
+      },
+      "properties": {
+        "name": "Bhalej"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0114031,
+          22.6011546
+        ]
+      },
+      "properties": {
+        "name": "Sadanapura"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.97242,
+          22.56767
+        ]
+      },
+      "properties": {
+        "name": "Anand Bypass Cabin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9667427,
+          22.5607595
+        ]
+      },
+      "properties": {
+        "name": "Anand Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.008087,
+          22.5144565
+        ]
+      },
+      "properties": {
+        "name": "Vadod"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0340716,
+          22.4868984
+        ]
+      },
+      "properties": {
+        "name": "Adas Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.143575,
+          22.36679
+        ]
+      },
+      "properties": {
+        "name": "Bajva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1808827,
+          22.310805
+        ]
+      },
+      "properties": {
+        "name": "Vadodara Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1759241,
+          22.2336186
+        ]
+      },
+      "properties": {
+        "name": "Makar Pura"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0948832,
+          21.9818752
+        ]
+      },
+      "properties": {
+        "name": "Lakodra Dethan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0722361,
+          21.9206351
+        ]
+      },
+      "properties": {
+        "name": "Palej"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0527715,
+          21.8673316
+        ]
+      },
+      "properties": {
+        "name": "Varediya"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9995735,
+          21.7033684
+        ]
+      },
+      "properties": {
+        "name": "Bharuch Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0013339,
+          21.6256915
+        ]
+      },
+      "properties": {
+        "name": "Ankleshwar Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9781,
+          21.5351
+        ]
+      },
+      "properties": {
+        "name": "Panoli"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8899992,
+          21.3174842
+        ]
+      },
+      "properties": {
+        "name": "Sayan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8552098,
+          21.2335791
+        ]
+      },
+      "properties": {
+        "name": "Utran"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8410814,
+          21.2048829
+        ]
+      },
+      "properties": {
+        "name": "Surat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8584224,
+          21.1423893
+        ]
+      },
+      "properties": {
+        "name": "Udhna Bypass Cabin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8745433,
+          21.0779549
+        ]
+      },
+      "properties": {
+        "name": "Sachin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8906718,
+          21.0203192
+        ]
+      },
+      "properties": {
+        "name": "Maroli"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.913955,
+          20.9468613
+        ]
+      },
+      "properties": {
+        "name": "Navsari"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9219661,
+          20.9206855
+        ]
+      },
+      "properties": {
+        "name": "Gandhi Smriti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9363474,
+          20.8743081
+        ]
+      },
+      "properties": {
+        "name": "Vedchha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9459319,
+          20.8437936
+        ]
+      },
+      "properties": {
+        "name": "Ancheli"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9559674,
+          20.811671
+        ]
+      },
+      "properties": {
+        "name": "Amalsad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9703568,
+          20.7655478
+        ]
+      },
+      "properties": {
+        "name": "Bilimora Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9662829,
+          20.7306866
+        ]
+      },
+      "properties": {
+        "name": "Joravasan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9494085,
+          20.687885
+        ]
+      },
+      "properties": {
+        "name": "Dungri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9339458,
+          20.6080698
+        ]
+      },
+      "properties": {
+        "name": "Valsad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9277841,
+          20.5469543
+        ]
+      },
+      "properties": {
+        "name": "Atul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9244868,
+          20.5138439
+        ]
+      },
+      "properties": {
+        "name": "Pardi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9191229,
+          20.4620419
+        ]
+      },
+      "properties": {
+        "name": "Udvada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.901355,
+          20.316183
+        ]
+      },
+      "properties": {
+        "name": "Karambeli"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88763,
+          20.275246
+        ]
+      },
+      "properties": {
+        "name": "Bhilad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.821151,
+          20.19189
+        ]
+      },
+      "properties": {
+        "name": "Sanjan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.766134,
+          20.1225
+        ]
+      },
+      "properties": {
+        "name": "Bordi Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.737934,
+          20.0867248
+        ]
+      },
+      "properties": {
+        "name": "Gholvad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.7436773,
+          19.9913534
+        ]
+      },
+      "properties": {
+        "name": "Dahanu Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.7635424,
+          19.8831143
+        ]
+      },
+      "properties": {
+        "name": "Vangaon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.7616158,
+          19.7984147
+        ]
+      },
+      "properties": {
+        "name": "Boisar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.7906229,
+          19.6266917
+        ]
+      },
+      "properties": {
+        "name": "Kelve Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.821515,
+          19.5770647
+        ]
+      },
+      "properties": {
+        "name": "Saphale"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8119941,
+          19.4547563
+        ]
+      },
+      "properties": {
+        "name": "Virar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.831955,
+          19.3826167
+        ]
+      },
+      "properties": {
+        "name": "Vasai Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8463737,
+          19.3513662
+        ]
+      },
+      "properties": {
+        "name": "Naigaon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8525979,
+          19.3113113
+        ]
+      },
+      "properties": {
+        "name": "Bhayandar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8596279,
+          19.2494357
+        ]
+      },
+      "properties": {
+        "name": "Dahisar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8574025,
+          19.2290548
+        ]
+      },
+      "properties": {
+        "name": "Borivali"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.85175,
+          19.204168
+        ]
+      },
+      "properties": {
+        "name": "Kandivli"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8493485,
+          19.1646036
+        ]
+      },
+      "properties": {
+        "name": "Goregaon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.846531,
+          19.1198242
+        ]
+      },
+      "properties": {
+        "name": "Andheri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.841747,
+          19.0816754
+        ]
+      },
+      "properties": {
+        "name": "Santacruz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8417501,
+          19.0646485
+        ]
+      },
+      "properties": {
+        "name": "Bandra Junction"
+      }
+    }
+  ]
+}

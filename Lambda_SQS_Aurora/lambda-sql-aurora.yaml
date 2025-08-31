@@ -1,0 +1,198 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: Minimal AWS architecture with Lambda, SQS, Aurora PostgreSQL, and HTTP API Gateway
+
+Resources:
+  ########################################
+  # Networking
+  ########################################
+  LabVPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: 10.0.0.0/24
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+      Tags:
+        - Key: Name
+          Value: LabVPC
+
+  PrivateSubnet:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref LabVPC
+      CidrBlock: 10.0.1.0/28
+      AvailabilityZone: ap-south-1a
+      MapPublicIpOnLaunch: false
+      Tags:
+        - Key: Name
+          Value: PrivateSubnet
+
+  AuroraSG:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: Allow traffic only from db_handler lambda
+      VpcId: !Ref LabVPC
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 5432
+          ToPort: 5432
+          CidrIp: 10.0.0.0/24
+      Tags:
+        - Key: Name
+          Value: AuroraSG
+
+  ########################################
+  # IAM Role for Lambdas
+  ########################################
+  LambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaVPCAccessExecutionRole
+      Tags:
+        - Key: Name
+          Value: LambdaExecutionRole
+
+  ########################################
+  # SQS Queue
+  ########################################
+  DataQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: data_sqs
+
+  ########################################
+  # Aurora PostgreSQL
+  ########################################
+  AuroraSubnetGroup:
+    Type: AWS::RDS::DBSubnetGroup
+    Properties:
+      DBSubnetGroupDescription: Aurora Subnet Group
+      SubnetIds:
+        - !Ref PrivateSubnet
+      DBSubnetGroupName: aurora-subnet-group
+
+  AuroraCluster:
+    Type: AWS::RDS::DBCluster
+    DeletionPolicy: Delete
+    UpdateReplacePolicy: Delete
+    Properties:
+      DBClusterIdentifier: order-db-cluster
+      Engine: aurora-postgresql
+      EngineVersion: "15.4"
+      MasterUsername: order_admin
+      MasterUserPassword: <your_password_here>
+      BackupRetentionPeriod: 1
+      DeletionProtection: false
+      StorageEncrypted: false
+      EnableCloudwatchLogsExports: []
+      DBSubnetGroupName: !Ref AuroraSubnetGroup
+      VpcSecurityGroupIds:
+        - !Ref AuroraSG
+
+  AuroraInstance:
+    Type: AWS::RDS::DBInstance
+    DeletionPolicy: Delete
+    UpdateReplacePolicy: Delete
+    Properties:
+      DBInstanceClass: db.t4g.medium
+      Engine: aurora-postgresql
+      DBClusterIdentifier: !Ref AuroraCluster
+      PubliclyAccessible: false
+      MonitoringInterval: 0
+
+  ########################################
+  # Lambda Functions
+  ########################################
+  ApiHandlerLambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: api_handler
+      Handler: index.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Runtime: python3.11
+      Timeout: 30
+      MemorySize: 128
+      Environment:
+        Variables:
+          SQS_URL: !Ref DataQueue
+      Code:
+        ZipFile: |
+          def handler(event, context):
+              return {"statusCode": 200, "body": "Lambda placeholder"}
+
+  DbHandlerLambda:
+    Type: AWS::Lambda::Function
+    Properties:
+      FunctionName: db_handler
+      Handler: index.handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Runtime: python3.11
+      Timeout: 30
+      MemorySize: 128
+      VpcConfig:
+        SecurityGroupIds:
+          - !Ref AuroraSG
+        SubnetIds:
+          - !Ref PrivateSubnet
+      Environment:
+        Variables:
+          DB_ENDPOINT: !GetAtt AuroraCluster.Endpoint.Address
+      Code:
+        ZipFile: |
+          def handler(event, context):
+              return "DB Lambda placeholder"
+
+  ########################################
+  # SQS → Lambda Event Mapping
+  ########################################
+  SQSTrigger:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      BatchSize: 1
+      EventSourceArn: !GetAtt DataQueue.Arn
+      FunctionName: !Ref DbHandlerLambda
+
+  ########################################
+  # API Gateway (HTTP API)
+  ########################################
+  OrderApi:
+    Type: AWS::ApiGatewayV2::Api
+    Properties:
+      Name: order-api
+      ProtocolType: HTTP
+
+  LambdaIntegration:
+    Type: AWS::ApiGatewayV2::Integration
+    Properties:
+      ApiId: !Ref OrderApi
+      IntegrationType: AWS_PROXY
+      IntegrationUri: !Sub arn:aws:apigateway:${AWS::Region}:lambda:path/2015-03-31/functions/${ApiHandlerLambda.Arn}/invocations
+      PayloadFormatVersion: "2.0"
+
+  OrdersRoute:
+    Type: AWS::ApiGatewayV2::Route
+    Properties:
+      ApiId: !Ref OrderApi
+      RouteKey: "POST /orders"
+      Target: !Join ["/", ["integrations", !Ref LambdaIntegration]]
+
+  LambdaPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !Ref ApiHandlerLambda
+      Action: lambda:InvokeFunction
+      Principal: apigateway.amazonaws.com
+      SourceArn: !Sub arn:aws:execute-api:${AWS::Region}:${AWS::AccountId}:${OrderApi}/*/*
+
+Outputs:
+  ApiEndpoint:
+    Description: "HTTP API Endpoint"
+    Value: !Sub "https://${OrderApi}.execute-api.${AWS::Region}.amazonaws.com"

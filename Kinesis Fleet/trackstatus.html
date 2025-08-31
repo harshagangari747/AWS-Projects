@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Train Status Checker</title>
+    <!--
+        Load the Tailwind CSS library directly from the CDN.
+        This provides all the necessary utility classes for styling.
+    -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /*
+          Set the font family for a consistent look.
+          The Inter font is often used for modern UIs.
+        */
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="p-4 md:p-8 flex items-center justify-center min-h-screen font-sans bg-gray-100"
+    >
+      <div
+        class="container bg-white p-6 md:p-10 rounded-xl shadow-lg w-full max-w-4xl"
+      >
+        <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+          Train Status Checker
+        </h1>
+
+        <!-- Form for user input -->
+        <form
+          id="train-status-form"
+          class="flex flex-col sm:flex-row items-center gap-4 mb-8"
+        >
+          <div class="flex-grow w-full">
+            <label
+              for="train-number"
+              class="block text-gray-700 font-medium mb-2"
+              >Train Number</label
+            >
+            <select
+              id="train-number"
+              name="train-number"
+              class="w-full p-3 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500 transition-all duration-200"
+            >
+              <!-- Updated to show only a single train ID -->
+              <option value="773983">773983</option>
+              <option value="382918">382918</option>
+            </select>
+          </div>
+
+          <button
+            id="submit-button"
+            type="submit"
+            class="w-full sm:w-auto mt-7 px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200"
+          >
+            Get Status
+          </button>
+        </form>
+
+        <!-- Result box with the table, rendered conditionally by JavaScript -->
+        <div id="result-box" class="mt-8">
+          <!-- Content will be injected here by JavaScript -->
+          <h2 class="text-2xl font-bold text-gray-800 mb-4">Train Details</h2>
+          <div class="overflow-x-auto shadow-md rounded-lg">
+            <table class="min-w-full divide-y divide-gray-200">
+              <thead class="bg-blue-600 text-white">
+                <tr>
+                  <th
+                    scope="col"
+                    class="px-6 py-3 text-left text-xs font-bold uppercase tracking-wider"
+                  >
+                    Train ID
+                  </th>
+                  <th
+                    scope="col"
+                    class="px-6 py-3 text-left text-xs font-bold uppercase tracking-wider"
+                  >
+                    Train Name
+                  </th>
+                  <th
+                    scope="col"
+                    class="px-6 py-3 text-left text-xs font-bold uppercase tracking-wider"
+                  >
+                    Status
+                  </th>
+                  <th
+                    scope="col"
+                    class="px-6 py-3 text-left text-xs font-bold uppercase tracking-wider"
+                  >
+                    Journey Date
+                  </th>
+                  <th
+                    scope="col"
+                    class="px-6 py-3 text-left text-xs font-bold uppercase tracking-wider"
+                  >
+                    Departure Time
+                  </th>
+                  <th
+                    scope="col"
+                    class="px-6 py-3 text-left text-xs font-bold uppercase tracking-wider"
+                  >
+                    Arrival Time
+                  </th>
+                  <th
+                    scope="col"
+                    class="px-6 py-3 text-left text-xs font-bold uppercase tracking-wider"
+                  >
+                    Source
+                  </th>
+                  <th
+                    scope="col"
+                    class="px-6 py-3 text-left text-xs font-bold uppercase tracking-wider"
+                  >
+                    Destination
+                  </th>
+                </tr>
+              </thead>
+              <tbody id="table-body" class="bg-white divide-y divide-gray-200">
+                <!-- Table rows will be injected here by JavaScript -->
+                <tr>
+                  <td
+                    colspan="8"
+                    class="px-6 py-4 text-center text-sm text-gray-500"
+                  >
+                    Select a train and click "Get Status" to view its details.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- Live location box will be injected here by JavaScript -->
+          <div id="live-location-box"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Get references to all necessary DOM elements
+        const form = document.getElementById("train-status-form");
+        const select = document.getElementById("train-number");
+        const tableBody = document.getElementById("table-body");
+        const liveLocationBox = document.getElementById("live-location-box");
+        const submitButton = document.getElementById("submit-button");
+
+        // The base URL for the train status API
+        const API_BASE_URL =
+          "https://hm4p97it6a.execute-api.ap-south-1.amazonaws.com/test/location?trainId=";
+
+        // Helper function to convert epoch time to a formatted IST string
+        const convertEpochToIST = (epochTime) => {
+          // The API returns epoch time in seconds, so we multiply by 1000 for milliseconds
+          const date = new Date(epochTime * 1000);
+          return date.toLocaleString("en-IN", {
+            timeZone: "Asia/Kolkata",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit",
+            day: "2-digit",
+            month: "2-digit",
+            year: "numeric",
+          });
+        };
+
+        // Function to fetch train status from the real API
+        const fetchTrainStatus = async (trainId) => {
+          const url = `${API_BASE_URL}${trainId}`;
+          const response = await fetch(url);
+
+          if (!response.ok) {
+            throw new Error(`API returned an error: ${response.statusText}`);
+          }
+
+          const data = await response.json();
+          return data;
+        };
+
+        // Function to render the table and live location
+        const renderStatus = (status, error) => {
+          let tableHtml = "";
+          let locationHtml = "";
+
+          if (error) {
+            tableHtml = `
+                        <tr>
+                            <td colspan="8" class="px-6 py-4 text-center text-sm text-red-500">Error: ${error}</td>
+                        </tr>
+                    `;
+          } else if (status) {
+            // Check if the 'railway' address exists, otherwise use 'county'.
+            const lastKnownLocation =
+              status.address.railway || status.address.county || "";
+            // Check if the 'state_district' address exists, otherwise use 'district'.
+            const district =
+              status.address.state_district || status.address.district || "";
+            // Check if the 'state' address exists.
+            const state = status.address.state || "";
+            const lastUpdatedIST = convertEpochToIST(status.lastUpdatedTime);
+
+            tableHtml = `
+                        <tr class="hover:bg-gray-50 transition-colors duration-200">
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">${status.trainId}</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${status.trainName}</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">On time</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${status.journeyDate}</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${status.departureTime}</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${status.arrivalTime}</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${status.trainSource}</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${status.trainDestination}</td>
+                        </tr>
+                    `;
+
+            locationHtml = `
+                        <div class="mt-4 p-4 rounded-lg bg-green-50 border border-green-200 text-green-700 font-bold">
+                            <span class="text-gray-800 font-semibold">Live Location: </span>
+                            Train left ${lastKnownLocation} at ${lastUpdatedIST}, ${district}, ${state}.
+                        </div>
+                    `;
+          } else {
+            tableHtml = `
+                        <tr>
+                            <td colspan="8" class="px-6 py-4 text-center text-sm text-gray-500">
+                                Select a train and click "Get Status" to view its details.
+                            </td>
+                        </tr>
+                    `;
+          }
+
+          tableBody.innerHTML = tableHtml;
+          liveLocationBox.innerHTML = locationHtml;
+        };
+
+        // Event listener for the form submission
+        form.addEventListener("submit", async (event) => {
+          event.preventDefault();
+
+          const selectedTrainId = select.value;
+          if (!selectedTrainId) {
+            renderStatus(null, "Please select a train number.");
+            return;
+          }
+
+          // Show loading state
+          renderStatus(null, null);
+          tableBody.innerHTML = `
+                    <tr>
+                        <td colspan="8" class="px-6 py-4 text-center text-sm text-gray-500">Fetching train status...</td>
+                    </tr>
+                `;
+          liveLocationBox.innerHTML = "";
+          submitButton.disabled = true;
+          submitButton.textContent = "Fetching...";
+
+          try {
+            const status = await fetchTrainStatus(selectedTrainId);
+            renderStatus(status, null);
+          } catch (err) {
+            renderStatus(null, err.message);
+          } finally {
+            submitButton.disabled = false;
+            submitButton.textContent = "Get Status";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

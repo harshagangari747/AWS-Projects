@@ -1,0 +1,1188 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5000444,
+          17.3893831
+        ]
+      },
+      "properties": {
+        "name": "Kacheguda\u2013Manmad section"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4947994,
+          17.3766392
+        ]
+      },
+      "properties": {
+        "name": "Malakpet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4902888,
+          17.3665914
+        ]
+      },
+      "properties": {
+        "name": "Dabirpura"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.482448,
+          17.3413254
+        ]
+      },
+      "properties": {
+        "name": "Huppuguda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4742273,
+          17.3319967
+        ]
+      },
+      "properties": {
+        "name": "Falaknuma"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4374036,
+          17.3235935
+        ]
+      },
+      "properties": {
+        "name": "NPA Shivram Pally"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4249719,
+          17.309817
+        ]
+      },
+      "properties": {
+        "name": "Budvel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3931089,
+          17.2633545
+        ]
+      },
+      "properties": {
+        "name": "Umdanagar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.30294,
+          17.20788
+        ]
+      },
+      "properties": {
+        "name": "Jukal Track: Double Electric-Line"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.288744,
+          17.1687589
+        ]
+      },
+      "properties": {
+        "name": "Timmapur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2859886,
+          17.1495919
+        ]
+      },
+      "properties": {
+        "name": "Kottur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2737765,
+          17.1337956
+        ]
+      },
+      "properties": {
+        "name": "HBL Nagar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2130239,
+          17.0648384
+        ]
+      },
+      "properties": {
+        "name": "Shadnagar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2029,
+          16.976221
+        ]
+      },
+      "properties": {
+        "name": "Burgula"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1891321,
+          16.9479745
+        ]
+      },
+      "properties": {
+        "name": "Balanagar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1813663,
+          16.9024589
+        ]
+      },
+      "properties": {
+        "name": "Ranga Reddy Guda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1632695,
+          16.8592169
+        ]
+      },
+      "properties": {
+        "name": "Rajapur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.157665,
+          16.819049
+        ]
+      },
+      "properties": {
+        "name": "Gollapalli"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1419472,
+          16.7526254
+        ]
+      },
+      "properties": {
+        "name": "Jadcherla"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0846032,
+          16.7410051
+        ]
+      },
+      "properties": {
+        "name": "Divitipalli"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0362075,
+          16.7580027
+        ]
+      },
+      "properties": {
+        "name": "Yenugonda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9991,
+          16.75744
+        ]
+      },
+      "properties": {
+        "name": "Mahbubnagar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9848931,
+          16.7484781
+        ]
+      },
+      "properties": {
+        "name": "Tirumala Dev Gutta Railway Gate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9828695,
+          16.7430458
+        ]
+      },
+      "properties": {
+        "name": "Mahbubnagar Town Halt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9059161,
+          16.6832996
+        ]
+      },
+      "properties": {
+        "name": "Manyamkonda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.869701,
+          16.668094
+        ]
+      },
+      "properties": {
+        "name": "Kotakadra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.838333,
+          16.631214
+        ]
+      },
+      "properties": {
+        "name": "Devarkadra Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8531743,
+          16.5914475
+        ]
+      },
+      "properties": {
+        "name": "Dokur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8502345,
+          16.560815
+        ]
+      },
+      "properties": {
+        "name": "Gopanpally railway gate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.85064,
+          16.538891
+        ]
+      },
+      "properties": {
+        "name": "Kaukuntla"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8628889,
+          16.4943743
+        ]
+      },
+      "properties": {
+        "name": "Kurumurthi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8836518,
+          16.4257378
+        ]
+      },
+      "properties": {
+        "name": "Konnur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8854599,
+          16.382429
+        ]
+      },
+      "properties": {
+        "name": "Wanaparti Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8591,
+          16.26651
+        ]
+      },
+      "properties": {
+        "name": "Arepalli Halt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8096973,
+          16.2252863
+        ]
+      },
+      "properties": {
+        "name": "Gadwal Railway Station"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8212849,
+          16.1546907
+        ]
+      },
+      "properties": {
+        "name": "Poodoor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.834536,
+          16.099648
+        ]
+      },
+      "properties": {
+        "name": "Peddadinne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.85256,
+          16.07363
+        ]
+      },
+      "properties": {
+        "name": "Itikyala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.91849,
+          16.0227
+        ]
+      },
+      "properties": {
+        "name": "Valluru Halt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9419,
+          15.994
+        ]
+      },
+      "properties": {
+        "name": "Manopad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0418078,
+          15.9156601
+        ]
+      },
+      "properties": {
+        "name": "SBB Jogulamba H"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.032433,
+          15.8324592
+        ]
+      },
+      "properties": {
+        "name": "Kurnool City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.037477,
+          15.8116209
+        ]
+      },
+      "properties": {
+        "name": "KOTLA H"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0130607,
+          15.7427986
+        ]
+      },
+      "properties": {
+        "name": "Dupadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9273236,
+          15.553615
+        ]
+      },
+      "properties": {
+        "name": "Veldurti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.91233,
+          15.46554
+        ]
+      },
+      "properties": {
+        "name": "Bogolu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9682889,
+          15.6523131
+        ]
+      },
+      "properties": {
+        "name": "Ulindakonda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8642301,
+          15.3968438
+        ]
+      },
+      "properties": {
+        "name": "Dhone Railway junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7753688,
+          15.396908
+        ]
+      },
+      "properties": {
+        "name": "Malliyala"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7031361,
+          15.3994767
+        ]
+      },
+      "properties": {
+        "name": "Linganenidoddi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.64856,
+          15.374338
+        ]
+      },
+      "properties": {
+        "name": "Pendekallu Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5908102,
+          15.3295923
+        ]
+      },
+      "properties": {
+        "name": "Edduladoddi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.53025,
+          15.31115
+        ]
+      },
+      "properties": {
+        "name": "Tuggali"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.41205,
+          15.2565
+        ]
+      },
+      "properties": {
+        "name": "Maddikera"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3869968,
+          15.2235955
+        ]
+      },
+      "properties": {
+        "name": "Mallappa Gate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3666613,
+          15.1753129
+        ]
+      },
+      "properties": {
+        "name": "Guntakal Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3944487,
+          15.1627588
+        ]
+      },
+      "properties": {
+        "name": "Timmanacherla"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.48023,
+          15.16566
+        ]
+      },
+      "properties": {
+        "name": "Nakkanadoddi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.6245752,
+          15.1498057
+        ]
+      },
+      "properties": {
+        "name": "Gooty Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.7278647,
+          15.1088092
+        ]
+      },
+      "properties": {
+        "name": "Jakkalacheruvu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.819788,
+          15.0552292
+        ]
+      },
+      "properties": {
+        "name": "Rayalacheruvu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8541021,
+          15.0181193
+        ]
+      },
+      "properties": {
+        "name": "Vemulapadu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.8977738,
+          14.9783683
+        ]
+      },
+      "properties": {
+        "name": "Juturu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9330222,
+          14.9327452
+        ]
+      },
+      "properties": {
+        "name": "Komali"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.9773451,
+          14.9084645
+        ]
+      },
+      "properties": {
+        "name": "Tadipatri"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.0340031,
+          14.8763741
+        ]
+      },
+      "properties": {
+        "name": "Challavaripalle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1363396,
+          14.8143398
+        ]
+      },
+      "properties": {
+        "name": "Regadipalli"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.1936224,
+          14.773446
+        ]
+      },
+      "properties": {
+        "name": "Kondapuram"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.2604687,
+          14.7360652
+        ]
+      },
+      "properties": {
+        "name": "Mangapatnam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.32895,
+          14.7177
+        ]
+      },
+      "properties": {
+        "name": "Chintakunta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.3972547,
+          14.6890181
+        ]
+      },
+      "properties": {
+        "name": "Muddanuru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.5336628,
+          14.6435539
+        ]
+      },
+      "properties": {
+        "name": "Yerraguntla Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.595599,
+          14.620904
+        ]
+      },
+      "properties": {
+        "name": "Yerragudipad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.6662058,
+          14.5928705
+        ]
+      },
+      "properties": {
+        "name": "Kamalapuram"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7176569,
+          14.55338
+        ]
+      },
+      "properties": {
+        "name": "Gangayapalle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.7742658,
+          14.4959619
+        ]
+      },
+      "properties": {
+        "name": "Krishnapuram"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9694913,
+          14.4091187
+        ]
+      },
+      "properties": {
+        "name": "Bhakarapet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.0175307,
+          14.3926131
+        ]
+      },
+      "properties": {
+        "name": "Ontimitta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.12168,
+          14.21933
+        ]
+      },
+      "properties": {
+        "name": "Hastavaram"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.1524585,
+          14.1854979
+        ]
+      },
+      "properties": {
+        "name": "Razampeta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.2262248,
+          14.0922375
+        ]
+      },
+      "properties": {
+        "name": "Reddipalle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.267533,
+          14.040413
+        ]
+      },
+      "properties": {
+        "name": "Obulavaripalli Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3023785,
+          13.9999669
+        ]
+      },
+      "properties": {
+        "name": "Anantarajupet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.3463777,
+          13.948568
+        ]
+      },
+      "properties": {
+        "name": "Koduru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.383932,
+          13.870335
+        ]
+      },
+      "properties": {
+        "name": "Settigunta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.406407,
+          13.81149
+        ]
+      },
+      "properties": {
+        "name": "Balapalle"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4606952,
+          13.7447751
+        ]
+      },
+      "properties": {
+        "name": "Mamanduru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5124872,
+          13.6577964
+        ]
+      },
+      "properties": {
+        "name": "Renigunta Bypass Cabin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.5066719,
+          13.6370097
+        ]
+      },
+      "properties": {
+        "name": "Renigunta Junction"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.4816951,
+          13.6335087
+        ]
+      },
+      "properties": {
+        "name": "Tiruchanur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.419812,
+          13.6283507
+        ]
+      },
+      "properties": {
+        "name": "Tirupati"
+      }
+    }
+  ]
+}

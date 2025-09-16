@@ -1,0 +1,4 @@
+matplotlib
+reportlab
+boto3
+python-dateutil

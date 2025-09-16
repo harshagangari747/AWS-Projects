@@ -1,0 +1,7 @@
+OrderReporting/.env
+OrderReporting/.vscode
+OrderReporting/venv1
+OrderReporting/.dockerignore
+OrderReporting/product_gen.py
+OrderReporting/__pycache__
+OrderReporting/venv1/*

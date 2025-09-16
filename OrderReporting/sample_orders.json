@@ -1,0 +1,1023 @@
+[
+  {
+    "date": "2025-09-10T18:04:01Z",
+    "orderID": 87032500,
+    "order_value": 61.56,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100212,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T11:14:13Z",
+    "orderID": 87032501,
+    "order_value": 255.23,
+    "transaction_type": "cc",
+    "order_items": [
+      {
+        "productId": 100206,
+        "count": 2
+      },
+      {
+        "productId": 100203,
+        "count": 1
+      },
+      {
+        "productId": 100209,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T05:13:15Z",
+    "orderID": 87032502,
+    "order_value": 552.27,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100201,
+        "count": 1
+      },
+      {
+        "productId": 100207,
+        "count": 4
+      },
+      {
+        "productId": 100206,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T18:18:58Z",
+    "orderID": 87032503,
+    "order_value": 136.7,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100205,
+        "count": 2
+      },
+      {
+        "productId": 100206,
+        "count": 3
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T22:25:43Z",
+    "orderID": 87032504,
+    "order_value": 390.64,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100211,
+        "count": 2
+      },
+      {
+        "productId": 100201,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T15:29:04Z",
+    "orderID": 87032505,
+    "order_value": 67.08,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100201,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T15:26:29Z",
+    "orderID": 87032506,
+    "order_value": 795.57,
+    "transaction_type": "cc",
+    "order_items": [
+      {
+        "productId": 100210,
+        "count": 4
+      },
+      {
+        "productId": 100202,
+        "count": 4
+      },
+      {
+        "productId": 100213,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T02:45:03Z",
+    "orderID": 87032507,
+    "order_value": 359.55,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100207,
+        "count": 4
+      },
+      {
+        "productId": 100201,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T18:02:14Z",
+    "orderID": 87032508,
+    "order_value": 234.52,
+    "transaction_type": "cc",
+    "order_items": [
+      {
+        "productId": 100216,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T02:55:12Z",
+    "orderID": 87032509,
+    "order_value": 169.53,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100207,
+        "count": 1
+      },
+      {
+        "productId": 100202,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T11:54:20Z",
+    "orderID": 87032510,
+    "order_value": 393.56,
+    "transaction_type": "cc",
+    "order_items": [
+      {
+        "productId": 100209,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T01:32:25Z",
+    "orderID": 87032511,
+    "order_value": 201.05,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100204,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T22:03:37Z",
+    "orderID": 87032512,
+    "order_value": 338.36,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100204,
+        "count": 2
+      },
+      {
+        "productId": 100210,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T13:21:17Z",
+    "orderID": 87032513,
+    "order_value": 135.74,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100207,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T06:40:48Z",
+    "orderID": 87032514,
+    "order_value": 157.48,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100215,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T09:55:18Z",
+    "orderID": 87032515,
+    "order_value": 362.85,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100205,
+        "count": 3
+      },
+      {
+        "productId": 100203,
+        "count": 1
+      },
+      {
+        "productId": 804222,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T11:46:32Z",
+    "orderID": 87032516,
+    "order_value": 617.85,
+    "transaction_type": "cc",
+    "order_items": [
+      {
+        "productId": 100214,
+        "count": 5
+      },
+      {
+        "productId": 100204,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T00:42:06Z",
+    "orderID": 87032517,
+    "order_value": 716.0,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100201,
+        "count": 5
+      },
+      {
+        "productId": 100201,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T21:15:21Z",
+    "orderID": 87032518,
+    "order_value": 402.8,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100213,
+        "count": 1
+      },
+      {
+        "productId": 100218,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T00:24:18Z",
+    "orderID": 87032519,
+    "order_value": 324.72,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100215,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T15:59:37Z",
+    "orderID": 87032520,
+    "order_value": 553.8,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100210,
+        "count": 4
+      },
+      {
+        "productId": 100216,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T04:24:53Z",
+    "orderID": 87032521,
+    "order_value": 341.05,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100207,
+        "count": 3
+      },
+      {
+        "productId": 100205,
+        "count": 3
+      },
+      {
+        "productId": 100209,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T17:27:25Z",
+    "orderID": 87032522,
+    "order_value": 41.6,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100219,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T08:33:32Z",
+    "orderID": 87032523,
+    "order_value": 227.8,
+    "transaction_type": "cc",
+    "order_items": [
+      {
+        "productId": 100202,
+        "count": 5
+      },
+      {
+        "productId": 100203,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T00:00:01Z",
+    "orderID": 87032524,
+    "order_value": 406.34,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100210,
+        "count": 5
+      },
+      {
+        "productId": 100216,
+        "count": 3
+      },
+      {
+        "productId": 100213,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T21:28:31Z",
+    "orderID": 87032525,
+    "order_value": 507.38,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100211,
+        "count": 1
+      },
+      {
+        "productId": 100210,
+        "count": 2
+      },
+      {
+        "productId": 100205,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T13:04:13Z",
+    "orderID": 87032526,
+    "order_value": 1014.41,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100213,
+        "count": 4
+      },
+      {
+        "productId": 100219,
+        "count": 5
+      },
+      {
+        "productId": 100211,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T08:47:09Z",
+    "orderID": 87032527,
+    "order_value": 252.81,
+    "transaction_type": "cc",
+    "order_items": [
+      {
+        "productId": 100214,
+        "count": 3
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T10:37:01Z",
+    "orderID": 87032528,
+    "order_value": 367.89,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100213,
+        "count": 3
+      },
+      {
+        "productId": 100218,
+        "count": 2
+      },
+      {
+        "productId": 100206,
+        "count": 3
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T18:12:00Z",
+    "orderID": 87032529,
+    "order_value": 533.46,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100213,
+        "count": 5
+      },
+      {
+        "productId": 100205,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T19:42:01Z",
+    "orderID": 87032530,
+    "order_value": 473.47,
+    "transaction_type": "cc",
+    "order_items": [
+      {
+        "productId": 100210,
+        "count": 5
+      },
+      {
+        "productId": 100212,
+        "count": 3
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T05:03:33Z",
+    "orderID": 87032531,
+    "order_value": 591.14,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100203,
+        "count": 4
+      },
+      {
+        "productId": 100209,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T12:32:54Z",
+    "orderID": 87032532,
+    "order_value": 286.81,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100207,
+        "count": 4
+      },
+      {
+        "productId": 100216,
+        "count": 3
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T04:53:05Z",
+    "orderID": 87032533,
+    "order_value": 62.13,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100214,
+        "count": 2
+      },
+      {
+        "productId": 100212,
+        "count": 3
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T19:49:20Z",
+    "orderID": 87032534,
+    "order_value": 571.52,
+    "transaction_type": "cc",
+    "order_items": [
+      {
+        "productId": 100211,
+        "count": 4
+      },
+      {
+        "productId": 100212,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T09:14:41Z",
+    "orderID": 87032535,
+    "order_value": 239.44,
+    "transaction_type": "cc",
+    "order_items": [
+      {
+        "productId": 100219,
+        "count": 2
+      },
+      {
+        "productId": 100201,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T16:58:02Z",
+    "orderID": 87032536,
+    "order_value": 326.03,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100209,
+        "count": 4
+      },
+      {
+        "productId": 100209,
+        "count": 2
+      },
+      {
+        "productId": 100217,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T10:15:44Z",
+    "orderID": 87032537,
+    "order_value": 724.7,
+    "transaction_type": "cc",
+    "order_items": [
+      {
+        "productId": 100209,
+        "count": 5
+      },
+      {
+        "productId": 100203,
+        "count": 5
+      },
+      {
+        "productId": 100203,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T04:40:57Z",
+    "orderID": 87032538,
+    "order_value": 633.54,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100214,
+        "count": 1
+      },
+      {
+        "productId": 100208,
+        "count": 3
+      },
+      {
+        "productId": 100208,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "date": "2025-09-10T04:25:33Z",
+    "orderID": 87032539,
+    "order_value": 112.96,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100207,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T06:10:25Z",
+    "orderID": 87032540,
+    "order_value": 70.7,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100213,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T01:35:18Z",
+    "orderID": 87032541,
+    "order_value": 671.99,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100206,
+        "count": 3
+      },
+      {
+        "productId": 100205,
+        "count": 4
+      },
+      {
+        "productId": 804222,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T21:06:25Z",
+    "orderID": 87032542,
+    "order_value": 388.02,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100214,
+        "count": 5
+      },
+      {
+        "productId": 100219,
+        "count": 3
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T03:51:30Z",
+    "orderID": 87032543,
+    "order_value": 783.07,
+    "transaction_type": "db",
+    "order_items": [
+      {
+        "productId": 100206,
+        "count": 3
+      },
+      {
+        "productId": 100207,
+        "count": 1
+      },
+      {
+        "productId": 100217,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T23:35:11Z",
+    "orderID": 87032544,
+    "order_value": 290.75,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100213,
+        "count": 5
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T11:43:16Z",
+    "orderID": 87032545,
+    "order_value": 402.82,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 804222,
+        "count": 2
+      },
+      {
+        "productId": 100202,
+        "count": 1
+      },
+      {
+        "productId": 100203,
+        "count": 4
+      }
+    ]
+  },
+  {
+    "date": "2025-09-12T02:40:58Z",
+    "orderID": 87032546,
+    "order_value": 555.68,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100217,
+        "count": 4
+      },
+      {
+        "productId": 100214,
+        "count": 2
+      },
+      {
+        "productId": 100201,
+        "count": 3
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T10:19:08Z",
+    "orderID": 87032547,
+    "order_value": 895.01,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100201,
+        "count": 5
+      },
+      {
+        "productId": 100211,
+        "count": 4
+      },
+      {
+        "productId": 100208,
+        "count": 3
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T22:00:33Z",
+    "orderID": 87032548,
+    "order_value": 93.2,
+    "transaction_type": "cc",
+    "order_items": [
+      {
+        "productId": 100215,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "date": "2025-09-11T14:52:49Z",
+    "orderID": 87032549,
+    "order_value": 152.32,
+    "transaction_type": "gc",
+    "order_items": [
+      {
+        "productId": 100207,
+        "count": 2
+      }
+    ]
+  },
+  {
+    "date": "2025-09-15T19:15:00Z",
+    "orderID": 92000000,
+    "order_value": 157.25,
+    "transaction_type": "gc",
+    "order_items": [
+      { "productId": 100224, "count": 7 },
+      { "productId": 100213, "count": 2 }
+    ]
+  },
+  {
+    "date": "2025-09-15T10:39:00Z",
+    "orderID": 92000001,
+    "order_value": 565.53,
+    "transaction_type": "db",
+    "order_items": [
+      { "productId": 100201, "count": 9 },
+      { "productId": 100236, "count": 7 },
+      { "productId": 100206, "count": 1 },
+      { "productId": 100203, "count": 6 }
+    ]
+  },
+  {
+    "date": "2025-09-15T16:58:00Z",
+    "orderID": 92000002,
+    "order_value": 54.3,
+    "transaction_type": "cc",
+    "order_items": [{ "productId": 100216, "count": 1 }]
+  },
+  {
+    "date": "2025-09-15T15:03:00Z",
+    "orderID": 92000003,
+    "order_value": 160.95,
+    "transaction_type": "db",
+    "order_items": [{ "productId": 100217, "count": 5 }]
+  },
+  {
+    "date": "2025-09-15T02:18:00Z",
+    "orderID": 92000004,
+    "order_value": 1349.97,
+    "transaction_type": "gc",
+    "order_items": [
+      { "productId": 100233, "count": 8 },
+      { "productId": 100216, "count": 7 },
+      { "productId": 100238, "count": 4 },
+      { "productId": 100217, "count": 9 },
+      { "productId": 100205, "count": 4 }
+    ]
+  },
+  {
+    "date": "2025-09-15T07:30:00Z",
+    "orderID": 92000005,
+    "order_value": 1117.07,
+    "transaction_type": "cc",
+    "order_items": [
+      { "productId": 100208, "count": 10 },
+      { "productId": 100218, "count": 4 },
+      { "productId": 100242, "count": 3 },
+      { "productId": 100237, "count": 5 }
+    ]
+  },
+  {
+    "date": "2025-09-15T00:23:00Z",
+    "orderID": 92000006,
+    "order_value": 994.89,
+    "transaction_type": "db",
+    "order_items": [
+      { "productId": 100230, "count": 6 },
+      { "productId": 100219, "count": 7 },
+      { "productId": 100248, "count": 8 }
+    ]
+  },
+  {
+    "date": "2025-09-15T10:33:00Z",
+    "orderID": 92000007,
+    "order_value": 1964.06,
+    "transaction_type": "cc",
+    "order_items": [
+      { "productId": 100214, "count": 9 },
+      { "productId": 100246, "count": 10 },
+      { "productId": 100238, "count": 9 },
+      { "productId": 100228, "count": 2 }
+    ]
+  },
+  {
+    "date": "2025-09-15T23:05:00Z",
+    "orderID": 92000008,
+    "order_value": 1081.01,
+    "transaction_type": "gc",
+    "order_items": [
+      { "productId": 100217, "count": 7 },
+      { "productId": 100203, "count": 2 },
+      { "productId": 100207, "count": 9 },
+      { "productId": 100209, "count": 4 }
+    ]
+  },
+  {
+    "date": "2025-09-15T04:45:00Z",
+    "orderID": 92000009,
+    "order_value": 560.0,
+    "transaction_type": "cc",
+    "order_items": [{ "productId": 100221, "count": 8 }]
+  },
+  {
+    "date": "2025-09-15T23:05:00Z",
+    "orderID": 92000010,
+    "order_value": 671.28,
+    "transaction_type": "gc",
+    "order_items": [
+      { "productId": 100244, "count": 1 },
+      { "productId": 100205, "count": 2 },
+      { "productId": 100209, "count": 6 },
+      { "productId": 100225, "count": 7 },
+      { "productId": 100231, "count": 5 }
+    ]
+  },
+  {
+    "date": "2025-09-15T08:37:00Z",
+    "orderID": 92000011,
+    "order_value": 1190.76,
+    "transaction_type": "db",
+    "order_items": [
+      { "productId": 100201, "count": 4 },
+      { "productId": 100233, "count": 2 },
+      { "productId": 100230, "count": 10 },
+      { "productId": 100225, "count": 3 },
+      { "productId": 100218, "count": 6 }
+    ]
+  },
+  {
+    "date": "2025-09-15T15:41:00Z",
+    "orderID": 92000012,
+    "order_value": 449.86,
+    "transaction_type": "cc",
+    "order_items": [
+      { "productId": 100213, "count": 4 },
+      { "productId": 100203, "count": 9 },
+      { "productId": 100220, "count": 5 }
+    ]
+  },
+  {
+    "date": "2025-09-15T04:53:00Z",
+    "orderID": 92000013,
+    "order_value": 179.5,
+    "transaction_type": "gc",
+    "order_items": [{ "productId": 100222, "count": 2 }]
+  },
+  {
+    "date": "2025-09-15T01:56:00Z",
+    "orderID": 92000014,
+    "order_value": 128.94,
+    "transaction_type": "cc",
+    "order_items": [{ "productId": 100235, "count": 6 }]
+  },
+  {
+    "date": "2025-09-15T06:03:00Z",
+    "orderID": 92000015,
+    "order_value": 1033.95,
+    "transaction_type": "db",
+    "order_items": [
+      { "productId": 100203, "count": 5 },
+      { "productId": 100208, "count": 9 },
+      { "productId": 100243, "count": 5 }
+    ]
+  },
+  {
+    "date": "2025-09-15T10:03:00Z",
+    "orderID": 92000016,
+    "order_value": 1017.75,
+    "transaction_type": "gc",
+    "order_items": [
+      { "productId": 100231, "count": 9 },
+      { "productId": 100249, "count": 6 }
+    ]
+  },
+  {
+    "date": "2025-09-15T10:40:00Z",
+    "orderID": 92000017,
+    "order_value": 854.62,
+    "transaction_type": "cc",
+    "order_items": [
+      { "productId": 100202, "count": 9 },
+      { "productId": 100211, "count": 8 },
+      { "productId": 100245, "count": 8 },
+      { "productId": 100226, "count": 5 },
+      { "productId": 100217, "count": 3 }
+    ]
+  },
+  {
+    "date": "2025-09-15T02:53:00Z",
+    "orderID": 92000018,
+    "order_value": 2277.97,
+    "transaction_type": "db",
+    "order_items": [
+      { "productId": 100209, "count": 5 },
+      { "productId": 100228, "count": 9 },
+      { "productId": 804222, "count": 9 },
+      { "productId": 100238, "count": 10 },
+      { "productId": 100230, "count": 9 }
+    ]
+  },
+  {
+    "date": "2025-09-15T04:07:00Z",
+    "orderID": 92000019,
+    "order_value": 477.51,
+    "transaction_type": "gc",
+    "order_items": [
+      { "productId": 100229, "count": 2 },
+      { "productId": 100242, "count": 7 },
+      { "productId": 100231, "count": 5 },
+      { "productId": 100202, "count": 3 }
+    ]
+  }
+]

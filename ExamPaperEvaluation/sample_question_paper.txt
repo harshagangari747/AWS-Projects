@@ -1,0 +1,83 @@
+{
+"Group1": {
+"max_marks_per_question": "0.5",
+"minimum_attemptable_questions": "10",
+"questions": [
+{
+"key": "1",
+"question": "is one which involves a person who dies as a result of an injury"
+},
+{
+"key": "2",
+"question": "MORTH is"
+},
+{
+"key": "3",
+"question": "is the time lag between the perception of danger and the effective application of the breaks"
+},
+{
+"key": "4",
+"question": "The primary purpose of a is to identify potential safety hazards within the scheme design or construction as they could affect road users"
+},
+{
+"key": "5",
+"question": "There are conflict points at a four legged intersection"
+},
+{
+"key": "6",
+"question": "is the time in seconds that it takes a signal to complete one full cycle of indications"
+},
+{
+"key": "7",
+"question": "5E'S to road safety"
+},
+{
+"key": "8",
+"question": "Types of vehicle parking systems are"
+},
+{
+"key": "9",
+"question": "Intelligent Transportation Systems can provide traveler information to increase the and of the transportation systems"
+},
+{
+"key": "10",
+"question": "Bus Rapid Transit (BRT) is a kind of"
+}
+]
+},
+"Group2": {
+"max_marks_per_question": "2",
+"minimum_attemptable_questions": "3",
+"questions": [
+{
+"key": "1",
+"question": "List the different objectives of road signs?"
+},
+{
+"key": "2",
+"question": "Explain TSM in short?"
+},
+{
+"key": "3",
+"question": "List the various ITS sub systems?"
+}
+]
+,
+"Group3": {
+"max_marks_per_question": "7",
+"minimum_attemptable_questions": "2",
+"questions": [
+{
+"key": "4",
+"question": "Classify the road markings in details with neat sketches."
+},
+{
+"key": "5",
+"question": "Enlist the (i) advantages one way street system (ii) ill effects of off street parking"
+},
+{
+"key": "6",
+"question": "Explain the ITS technologies to improve road safety for metropolitan areas?"
+}
+]
+}

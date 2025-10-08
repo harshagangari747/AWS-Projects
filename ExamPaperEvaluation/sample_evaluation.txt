@@ -1,0 +1,142 @@
+Here is the evaluated answer sheet in the required format:
+
+```
+{
+  "Group1": {
+    "max_marks_per_question": "0.5",
+    "minimum_attemptable_questions": "10",
+    "questions": [
+      {
+        "key": "1",
+        "question": "is one which involves a person who dies as a result of an injury",
+        "answer": "Injury Indication",
+        "marks_obtained": "0.5",
+        "remarks": "Answer is partially correct, but not fully descriptive"
+      },
+      {
+        "key": "2",
+        "question": "MORTH is",
+        "answer": "Ministry of Road Transport and Highways",
+        "marks_obtained": "0.5",
+        "remarks": "Answer is correct"
+      },
+      {
+        "key": "3",
+        "question": "is the time lag between the perception of danger and the effective application of the breaks",
+        "answer": "Break reaction time",
+        "marks_obtained": "0.5",
+        "remarks": "Answer is correct"
+      },
+      {
+        "key": "4",
+        "question": "The primary purpose of a is to identify potential safety hazards within the scheme design or construction as they could affect road users",
+        "answer": "Road safety auditing",
+        "marks_obtained": "0.5",
+        "remarks": "Answer is partially correct, but not fully descriptive"
+      },
+      {
+        "key": "5",
+        "question": "There are conflict points at a four legged intersection",
+        "answer": "32",
+        "marks_obtained": "0.5",
+        "remarks": "Answer is partially correct, but not fully descriptive"
+      },
+      {
+        "key": "6",
+        "question": "is the time in seconds that it takes a signal to complete one full cycle of indications",
+        "answer": "Cycle length",
+        "marks_obtained": "0.5",
+        "remarks": "Answer is correct"
+      },
+      {
+        "key": "7",
+        "question": "5E'S to road safety",
+        "answer": "Engineering Roads, Engineering Vehicles, Enforcement, Education, Emergency",
+        "marks_obtained": "0.5",
+        "remarks": "Answer is correct"
+      },
+      {
+        "key": "8",
+        "question": "Types of vehicle parking systems are",
+        "answer": "on-street parking, off-street parking",
+        "marks_obtained": "0.5",
+        "remarks": "Answer is partially correct, but not fully descriptive"
+      },
+      {
+        "key": "9",
+        "question": "Intelligent Transportation Systems can provide traveler information to increase the and of the transportation systems",
+        "answer": "Safety and efficiency",
+        "marks_obtained": "0.5",
+        "remarks": "Answer is partially correct, but not fully descriptive"
+      },
+      {
+        "key": "10",
+        "question": "Bus Rapid Transit (BRT) is a kind of",
+        "answer": "Highquality bus-based transitrystem",
+        "marks_obtained": "0.5",
+        "remarks": "Answer is correct"
+      }
+    ],
+    "group_total": "5.0"
+  },
+  "Group2": {
+    "max_marks_per_question": "2",
+    "minimum_attemptable_questions": "3",
+    "questions": [
+      {
+        "key": "1",
+        "question": "List the different objectives of road signs?",
+        "answer": "To provide valuable information to drivers and other road users to ensure safety, To ensure safe movement of Vehicles on outer regions of cities which are prone to more no.of accidents, To represent rules that are in place to keep you safe, to ensure enforcement of the traffic signals as neglecting them could be dangerous for the road user.",
+        "marks_obtained": "2",
+        "remarks": "Answer is correct"
+      },
+      {
+        "key": "2",
+        "question": "Explain TSM in short?",
+        "answer": "It is a document that provides information on changes to the methods used to prescribe traffic signs. It gives guidance on the use of traffic signs and road markings, by the prescribed by the traffic signs regulations.",
+        "marks_obtained": "2",
+        "remarks": "Answer is correct"
+      },
+      {
+        "key": "3",
+        "question": "List the various ITS sub systems?",
+        "answer": "Emergency Call Boxes (ECB), Meteorological Stations MET, Highspeed weigh - in-Motion (WIM), Variable message signs (VMS), Lane control signals (LCS), Audio -video alarms, Automatic number plate recognition (ANPR), RFID readers, Average speed enforcement cameras.",
+        "marks_obtained": "2",
+        "remarks": "Answer is correct"
+      }
+    ],
+    "group_total": "6.0"
+  },
+  "Group3": {
+    "max_marks_per_question": "7",
+    "minimum_attemptable_questions": "2",
+    "questions": [
+      {
+        "key": "4",
+        "question": "Classify the road markings in details with neat sketches.",
+        "answer": "Carriageway longitudinal markings, object markings, Transverse markings, word messages, Parking, Hazardous location.",
+        "marks_obtained": "7",
+        "remarks": "Answer is correct"
+      },
+      {
+        "key": "5",
+        "question": "Enlist the (i) advantages one way street system (ii) ill effects of off street parking",
+        "answer": "Advantages: Improved ability to coordinate traffic Signals, Removal of opposed left-turns, Related quality of flow benefits such as increased average speed and decreased delays. Better quality of flow for bus transit, lower transit operating cost. Ability to maintain curb parking longer than otherwise possible. Capacity benefits: Reduced left turns, Fewer signal phases, Reduced delay, Better utilization of Street width. Safety benefits: Intersection IT conflicts removed, tridblock LT conflicts removed, Improved driver field of vision. Ill effects: Congestion in a small region, Since offices off Street parkings allocate small areas. The greater the no.of vehicles, the more the congestion. Congestion occurs on roads with more users. No free movement.",
+        "marks_obtained": "7",
+        "remarks": "Answer is correct"
+      },
+      {
+        "key": "6",
+        "question": "Explain the ITS technologies to improve road safety for metropolitan areas?",
+        "answer": "ITS technologies being to enhance and support the enforcement of traffic rules and regulations. Some of ITS components must be deployed to foresee road safety are CCTV cameras, Automatic number plate recognition cameras, Speed guns, E-challaning, challaning people electronically those who do not obey rules. Variable message sign boards To inform users with messages about road safety. Red light violation detectors T they are used to check Signal jumping. Lane Control signals for effective road traffic management. Emergency callboxes.",
+        "marks_obtained": "7",
+        "remarks": "Answer is correct"
+      }
+    ],
+    "group_total": "14.0"
+  },
+  "Total_marks": "25.0"
+}
+```
+
+Note: The marks obtained for each question are based on the evaluation criteria provided in the instructions. The remarks column provides a brief justification for the score given to each answer.

@@ -1,0 +1,16 @@
+NO PREAMBLE
+#**Objective: Convert the given raw text of questions into the following formatted JSON template { "group<number>":{ "max_marks_per_question":"<maximum marks achievable per question in this group>", "minimum_attemptable_questions":"<number of question required to attempt to get maximum marks in this group>" "questions":[ { "key":"<question number here>", "question":"<actual question>", } ] } } **
+#**Context: The given raw text input is of a question paper extracted using Amazon Textract. I need this question paper to be
+formatted into a proper JSON template **
+##**Instructions:**
+##**Instruction 1: Parse the question paper into groups related to similar question types. Each group carries maximum marks achievable in the format a x b = c, found at starting of the group. a, b means either marks for each question and minimum number of attemptable questions in that group to achieve maximum marks in that group interchangably  and c is the maximum marks achievable for the entire group**
+##**Instruction 2: Omit all the taxonomy codes, names , legends, addresses, objectives**
+##**Instruction 3: Return a json object using the following template { "group<number>":{ "max_marks_per_question":"<maximum marks achievable per question in this group>", "minimum_attemptable_questions":"<number of question required to attempt to get maximum marks in this group>" "questions":[ { "key":"<question number here>", "question":"<actual question>", } ] } } **
+##**Instruction 4: NO PREAMBLE or additional text. Output only the JSON object**
+##**Instruction 5: Retain the check boxes, blanks in the question paper as part of the parsed JSON
+##**Notes:**
+##Note 1: Don't modify the original question. Retain the question as it is.**
+##Note 2: Return the result in the specified JSON only
+Here is the extracted text from the question paper
+
+
